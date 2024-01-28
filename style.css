@@ -9,14 +9,12 @@ body {
     background: linear-gradient(to right, #da8ce2, #4dbbe6);
     color: #333;
   }
-  
   #tic-tac-toe-board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
     gap: 10px;
   }
-  
   .cell {
     background-color: #fff;
     border: 2px solid #333;
@@ -28,19 +26,16 @@ body {
     transition: background-color 0.3s ease;
     width: 100px;
     height: 100px;
-  }
-  
+  } 
   .cell:hover {
     background-color: #e3e3e3;
-  }
-  
+  }  
   .game-message {
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
     color: #333;
-  }
-  
+  }  
   #resetButton {
     padding: 10px 20px;
     font-size: 1rem;
